@@ -36,6 +36,9 @@ else
     Plug 'w0rp/ale'
 endif
 
+" for dart
+Plug 'dart-lang/dart-vim-plugin'
+
 " Group dependencies, vim-snippets depends on ultisnips
 " 代码片段快速插入 (snippets中,是代码片段资源,需要学习)
 " Snippets are separated from the engine. Add this if you want them:
