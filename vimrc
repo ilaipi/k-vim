@@ -198,6 +198,8 @@ fun! ToggleFold()
     endif
 endfun
 
+autocmd Filetype * AnyFoldActivate
+
 " 缩进配置
 " Smart indent
 set smartindent

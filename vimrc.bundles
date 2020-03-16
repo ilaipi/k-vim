@@ -38,6 +38,7 @@ endif
 
 " for dart
 Plug 'dart-lang/dart-vim-plugin'
+Plug 'pseewald/vim-anyfold'
 
 " Group dependencies, vim-snippets depends on ultisnips
 " 代码片段快速插入 (snippets中,是代码片段资源,需要学习)
