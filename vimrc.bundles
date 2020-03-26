@@ -624,6 +624,7 @@ endif
 
 " ctrlsf {{{
     nmap \ <Plug>CtrlSFCwordPath<CR>
+    nmap <C-F>f <Plug>CtrlSFPrompt
     " let g:ctrlsf_position = 'below'
     " let g:ctrlsf_winsize = '30%'
     let g:ctrlsf_ignore_dir = ["node_modules", "package-lock.json", "yarn.lock"]
