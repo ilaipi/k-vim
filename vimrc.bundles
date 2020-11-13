@@ -623,7 +623,7 @@ endif
 
 
 " ctrlsf {{{
-    nmap \ <Plug>CtrlSFCwordPath<CR>
+    nmap \ <Plug>CtrlSFCwordPath
     nmap <C-F>f <Plug>CtrlSFPrompt
     " let g:ctrlsf_position = 'below'
     " let g:ctrlsf_winsize = '30%'
