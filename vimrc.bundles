@@ -164,6 +164,9 @@ Plug 'kana/vim-textobj-entire'
 " 增加缩进文本对象: i   dai yai cii - 相同缩进属于同一块
 Plug 'kana/vim-textobj-indent'
 
+" 自动高亮光标下的单词在其它地方的使用
+Plug 'RRethy/vim-illuminate'
+
 if count(g:bundle_groups, 'tmux')
     " tmux
     " For tmux navigator Ctrl-hjkl
@@ -905,6 +908,12 @@ endif
     " nnoremap <silent> <leader>es :Esformatter<CR>
     " vnoremap <silent> <leader>es :EsformatterVisual<CR>
 
+" }}}
+
+" RRethy/vim-illuminate
+" Time in milliseconds (default 250) {{{
+    let g:Illuminate_delay = 250
+    let g:Illuminate_ftblacklist = ['nerdtree']
 " }}}
 
 "------------------------------------------- end of configs --------------------------------------------
