@@ -164,6 +164,12 @@ Plug 'kana/vim-textobj-entire'
 " 增加缩进文本对象: i   dai yai cii - 相同缩进属于同一块
 Plug 'kana/vim-textobj-indent'
 
+" Calendar
+Plug 'itchyny/calendar.vim'
+
+" any jump <leader>j
+Plug 'pechorin/any-jump.vim'
+
 if count(g:bundle_groups, 'tmux')
     " tmux
     " For tmux navigator Ctrl-hjkl
@@ -623,7 +629,7 @@ endif
 
 
 " ctrlsf {{{
-    nmap \ <Plug>CtrlSFCwordPath<CR>
+    nmap \ <Plug>CtrlSFCwordPath
     nmap <C-F>f <Plug>CtrlSFPrompt
     " let g:ctrlsf_position = 'below'
     " let g:ctrlsf_winsize = '30%'
