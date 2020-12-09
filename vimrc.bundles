@@ -169,6 +169,8 @@ Plug 'itchyny/calendar.vim'
 
 " any jump <leader>j
 Plug 'pechorin/any-jump.vim'
+" 自动高亮光标下的单词在其它地方的使用
+Plug 'RRethy/vim-illuminate'
 
 if count(g:bundle_groups, 'tmux')
     " tmux
@@ -911,6 +913,12 @@ endif
     " nnoremap <silent> <leader>es :Esformatter<CR>
     " vnoremap <silent> <leader>es :EsformatterVisual<CR>
 
+" }}}
+
+" RRethy/vim-illuminate
+" Time in milliseconds (default 250) {{{
+    let g:Illuminate_delay = 250
+    let g:Illuminate_ftblacklist = ['nerdtree']
 " }}}
 
 "------------------------------------------- end of configs --------------------------------------------
